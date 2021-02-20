@@ -1,8 +1,8 @@
 package com.oks;
 
 public class Picture extends Media implements Print {
-    int width = 100;
-    int height = 100;
+    int width = 10;
+    int height = 10;
 
     public static int calcSizePX(int width, int height) {
         return width * height;

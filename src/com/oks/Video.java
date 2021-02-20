@@ -6,7 +6,7 @@ public class Video extends Media implements Play {
     String resolutionScreen;
 
     public Video() {
-        resolutionScreen = "1280×720";
+        resolutionScreen = "1500×720";
     }
 
     public void getResolutionScreen(String resolutionScreen) {
