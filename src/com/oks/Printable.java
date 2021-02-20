@@ -1,5 +1,5 @@
 package com.oks;
 
-public interface Print {
+interface Printable {
     void printOut();
 }

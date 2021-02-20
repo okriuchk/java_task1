@@ -2,7 +2,7 @@ package com.oks;
 
 import java.io.UnsupportedEncodingException;
 
-public class TextPost extends AbstractPost implements Print {
+public class TextPost extends AbstractPost implements Printable {
     String text = "On Monday I'm not in the office";
 
     public void sizeByte() { //преобразование строки в байтовое значение

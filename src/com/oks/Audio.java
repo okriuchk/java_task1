@@ -1,6 +1,6 @@
 package com.oks;
 
-public class Audio extends Media implements Play {
+public class Audio extends Media implements Playable {
     String song = "California";
     String performer = "RHCP";
     String format;

@@ -1,5 +1,5 @@
 package com.oks;
 
-public interface Play {
+interface Playable {
     void play();
 }

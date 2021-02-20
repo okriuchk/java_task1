@@ -1,6 +1,6 @@
 package com.oks;
 
-public class Video extends Media implements Play {
+public class Video extends Media implements Playable {
     String name = "Baikal";
     String nickname = "@NIK";
     String resolutionScreen;

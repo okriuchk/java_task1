@@ -1,6 +1,6 @@
 package com.oks;
 
-public class Picture extends Media implements Print {
+public class Picture extends Media implements Printable {
     int width = 10;
     int height = 10;
 
