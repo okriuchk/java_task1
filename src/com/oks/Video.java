@@ -1,8 +1,6 @@
 package com.oks;
 
 public class Video extends Media implements Playable {
-    String name = "Baikal";
-    String nickname = "@NIK";
     String resolutionScreen;
 
     public Video() {
@@ -14,6 +12,6 @@ public class Video extends Media implements Playable {
     }
 
     public void play() {
-        System.out.printf("YouTube: The video about %s was published by user %s; resolution screen is %s\n\n", name, nickname, resolutionScreen);
+        System.out.printf("YouTube: Resolution screen of this video is %s\n\n", resolutionScreen);
     }
 }

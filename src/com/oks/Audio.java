@@ -1,8 +1,6 @@
 package com.oks;
 
 public class Audio extends Media implements Playable {
-    String song = "California";
-    String performer = "RHCP";
     String format;
 
     public Audio() {
@@ -14,7 +12,7 @@ public class Audio extends Media implements Playable {
     }
 
     public void play() {
-        System.out.printf("Radio: Now the song '%s' from '%s' is playing in format %s\n", song, performer, format);
+        System.out.printf("Radio: This song is playing in format %s\n", format);
     }
 }
 

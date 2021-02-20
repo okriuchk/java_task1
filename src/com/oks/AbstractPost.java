@@ -14,5 +14,3 @@ abstract class AbstractPost {
 
     public abstract int maxSize(int size);
 }
-
-

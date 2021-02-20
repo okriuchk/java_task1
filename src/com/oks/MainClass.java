@@ -9,28 +9,28 @@ public class MainClass {
         t.author = "Иван";
         t.date = new Date();
         t.message = "Привет!";
-        t.typeMessage = Type.post;
+        t.typeMessage = Type.POST;
         t.printOut();
 
         Picture p = new Picture();
         p.author = "Sidorov";
         p.date = new Date();
         p.message = "LOKO";
-        p.typeMessage = Type.repost;
+        p.typeMessage = Type.REPOST;
         p.printOut();
 
         Audio a = new Audio();
         a.author = "RHCP";
         a.date = new Date();
         a.message = "Californication";
-        a.typeMessage = Type.comment;
+        a.typeMessage = Type.COMMENT;
         a.play();
 
         Video v = new Video();
-        v.author = "user @OKSS";
+        v.author = "user @NIK";
         v.date = new Date();
         v.message = "Baikal";
-        v.typeMessage = Type.post;
+        v.typeMessage = Type.POST;
         v.play();
 
         AbstractPost[] array = new AbstractPost[4];
