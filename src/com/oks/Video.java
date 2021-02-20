@@ -2,7 +2,7 @@ package com.oks;
 
 public class Video extends Media implements Play {
     String name = "Baikal";
-    String nickname = "@OKSS";
+    String nickname = "@NIK";
     String resolutionScreen;
 
     public Video() {
