@@ -1,20 +1,21 @@
 package com.oks;
 
-class Media extends AbstractPost{
+class Media extends AbstractPost {
+
+    String settings;
 
     @Override
     public int maxSize(int size) {
         return size;
     }
 
-    String settings;
-    public void checkSettings(){
+    public void checkSettings() {
         System.out.println("Settings are checked");
     }
 
-    public void setSettings(String settings){
+    public void setSettings(String settings) {
         this.settings = settings;
         System.out.println("Settings are updated");
-
     }
 }
+

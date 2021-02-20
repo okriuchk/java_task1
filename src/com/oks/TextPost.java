@@ -3,9 +3,9 @@ package com.oks;
 import java.io.UnsupportedEncodingException;
 
 public class TextPost extends AbstractPost implements Print {
-    String text = "hello";
+    String text = "On Monday I'm not in the office";
 
-    public void SizeByte() { //преобразование строки в байтовое значение
+    public void sizeByte() { //преобразование строки в байтовое значение
         byte[] utf8 = null;
         int byteCount = 0;
         try {
@@ -23,7 +23,7 @@ public class TextPost extends AbstractPost implements Print {
     }
 
     @Override
-    public void print_out() {
+    public void printOut() {
         System.out.printf("Chat: The message from Alex is '%s'\n", text);
     }
 }
